@@ -1,0 +1,70 @@
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;;
+    border-bottom: 2px;
+}
+
+input {
+    width:20em;
+    border-color:darkgrey;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+}
+
+input[name="bottom-text"] {
+    margin-left: 14px;
+}
+
+input[name="img-URL"] {
+    margin-left: 60px;
+}
+
+input[name="top-text"] {
+    margin-left: 42px;
+}
+
+input[name="submitBtn"] {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+input[name="submitBtn"]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.divStyle {
+    position: relative;
+    min-width: 250px;
+    min-height: 250px;
+    padding: 13px;
+    display: inline-block;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);    
+    font-size: 20px;
+}
+
+.topText {
+    position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 5%;
+        
+}
+
+.bottomText {
+    position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 80%;
+}
